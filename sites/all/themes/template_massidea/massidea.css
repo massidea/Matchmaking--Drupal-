@@ -1,0 +1,60 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.sidebar-nav {
+	padding: 9px 0;
+}
+.sidebar-nav-fixed {
+	position: fixed;
+	top: 60px;
+	width: 13.97%;
+}
+ @media (max-width: 767px) {
+.sidebar-nav-fixed {
+	width: auto;
+}
+}
+ @media (max-width: 979px) {
+.sidebar-nav-fixed {
+	position: static;
+	width: auto;
+}
+}
+ @media (max-width: 980px) {
+/* Enable use of floated navbar text */
+.navbar-text.pull-right {
+	float: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+}
+/* some comments */
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+.marketing .span3 {
+	text-align: center;
+}
+.marketing h2 {
+	font-weight: normal;
+}
+.marketing .span3 p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* HIDDING MAIN SEARCH BAR ON RESULT PAGE */
+#block-search-form {
+	display: none;
+}
+
+/*  PROJECT ICONS */
+.project-icon {
+	display: block;
+	background: url(logo.png) left center no-repeat;
+	background-size: 15px;
+	padding-left: 20px;
+	padding-right: 10px;	
+}

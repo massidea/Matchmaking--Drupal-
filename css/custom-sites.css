@@ -1,0 +1,52 @@
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: list-item;
+}
+
+.startPage .advantages ul {
+	list-style: none; 
+}
+
+.startPage .advantages ul li {
+	color: #999;
+	padding:  0 0 0 75px;
+	font-size: 18px;
+	line-height: 70px;
+}
+
+.startPage .advantages .platform {
+	background: url(/icons/startpage/platform.png) no-repeat;
+	background-position: 21px 17px;
+}
+
+.startPage .advantages .global {
+	background: url(/icons/startpage/global.png) no-repeat;
+	background-position: 21px 17px;
+}
+
+.startPage .advantages .contacts {
+	background: url(/icons/startpage/contacts.png) no-repeat;
+	background-position: 21px 17px;
+}
+
+
+.startPage .advantages .be-a-part {
+	background: url(/icons/startpage/be-a-part.png) no-repeat;
+	background-position: 21px 17px;
+}
+
+.startPage .advantages .start-now {
+	color: #677c9c;
+	padding: 0 0 0 75px;
+	font-size: 18px;
+	line-height: 70px;
+}
+
+.pull-right {
+	float: right;
+}
