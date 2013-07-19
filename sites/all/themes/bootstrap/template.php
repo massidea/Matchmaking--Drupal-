@@ -156,6 +156,12 @@ function bootstrap_preprocess_page(&$variables) {
     $variables['secondary_nav']['#theme_wrappers'] = array('menu_tree__secondary');
   }
 
+  if (drupal_is_front_page()) {
+    if (isset($variables['page']['content']['system_main'])) {
+      unset($variables['page']['content']['system_main']);
+    }
+  }
+
 }
 
 /**

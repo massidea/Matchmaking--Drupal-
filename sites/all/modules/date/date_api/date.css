@@ -5,7 +5,7 @@
 
 /* Force start/end dates to float using inline-block, where it works, otherwise inline. */
 .container-inline-date {
-  clear: both;
+  /*clear: both;*/
 }
 .container-inline-date .form-item {
   float: none;
@@ -96,18 +96,23 @@ span.date-display-end {
   clear: both;
   display: block;
   float: none;
+  width: 65px !important;
 }
 
 .date-no-float {
-  clear: both;
-  float: none;
-  width: 98%;
+  /*clear: both;*/
+  float: left;
+  width: 25%;
 }
 
 .date-float {
   clear: none;
   float: left;
   width: auto;
+}
+
+.start-date-wrapper label:before {
+content: "from ";
 }
 
 /* Add space between date option checkboxes ('All day' & 'Collect End Date') */

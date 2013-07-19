@@ -719,6 +719,7 @@ function og_form_alter(&$form, $form_state, $form_id) {
     return;
   }
   $form['#validate'][] = 'og_form_group_manager_validate';
+
 }
 
 /**

@@ -23,5 +23,14 @@ regions[footer]         = 'Footer'
 ;check if necessary!
 stylesheets[all][] = massidea.css
 
+; JS File for Matchmaking
+scripts[] = matchmaking.js
+
+; JS File for overiding Comment
+scripts[] = comment.js
+
+; JS File for My Project button
+scripts[] = myproject.js
+
 settings[toggle_name] = 0
 settings[toggle_search] = 1

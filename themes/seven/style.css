@@ -23,6 +23,7 @@ hr {
 }
 legend {
   font-weight: bold;
+  float: left;
 }
 h1,
 h2,
@@ -548,19 +549,23 @@ tr td:last-child {
  *   to apply all padding to the inner .fieldset-wrapper instead.
  */
 fieldset {
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
   padding: 2.5em 0 0 0; /* LTR */
   position: relative;
   margin: 1em 0;
 }
 fieldset .fieldset-legend {
   margin-top: 0.5em;
-  padding-left: 15px; /* LTR */
+  /*padding-left: 15px;  LTR */
   position: absolute;
   text-transform: uppercase;
 }
 fieldset .fieldset-wrapper {
-  padding: 0 13px 13px 15px; /* LTR */
+  /*padding: 0 13px 13px 15px;  LTR */
+  margin-left: 25%;
+}
+.fieldset-description {
+	float: right;
 }
 fieldset.collapsed {
   background-color: transparent;
@@ -599,10 +604,14 @@ div.teaser-checkbox .form-item,
 .form-item label {
   margin: 0;
   padding: 0;
+  float: left;
+  width: 25%;
+  clear: both;
 }
 .form-item label.option {
   font-size: 0.923em;
   text-transform: none;
+  width: 50%;
 }
 .form-item label.option input {
   vertical-align: middle;
@@ -619,10 +628,16 @@ div.teaser-checkbox .form-item,
 /* Filter */
 .filter-wrapper {
   border-top: 0;
-  padding: 10px 2px;
+  /*padding: 10px 2px;*/
+  margin-left: 25%;
+  width: 45%;
 }
 .filter-wrapper .fieldset-wrapper {
   padding: 0 6px;
+  clear: both;
+}
+.form-wrapper {
+  margin-top: 15px;
 }
 .filter-wrapper .form-item,
 .filter-wrapper .filter-guidelines,
@@ -630,13 +645,15 @@ div.teaser-checkbox .form-item,
   font-size: 0.923em;
   padding: 2px 0 0 0; /* LTR */
 }
-ul.tips,
+ul.tips  {}
 div.description,
 .form-item div.description {
   margin: 5px 0;
   line-height: 1.231em;
   font-size: 0.923em;
   color: #666;
+  float: right;
+  width: 25%;
 }
 ul.tips li {
   margin: 0.25em 0 0.25em 1.5em; /* LTR */
@@ -695,6 +712,33 @@ select.form-select {
   border-top-color: #999;
   background: #fff;
   color: #333;
+  width: 45%;
+}
+.file-widget {
+	float: left;
+	width: 45%;
+}
+input.form-file {
+  width: 85%;
+}
+.form-checkboxes {
+	float: left;
+	width: 45%;
+}
+#edit-group-email-und-0-value {
+	width: 39%;
+}
+.multipage-counter {
+  clear: both !important;
+}
+.form-actions {
+  text-align: center;
+}
+a.multipage-link-previous:hover {
+  color: #333 !important;
+box-shadow: 0 1px 1px rgba(0,0,0,0.1) !important;
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1) !important;
+border-color: #939393 !important;
 }
 input.form-text:focus,
 input.form-file:focus,

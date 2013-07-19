@@ -1,4 +1,4 @@
-body {
+﻿body {
 	padding-top: 60px;
 	padding-bottom: 40px;
 }
@@ -45,11 +45,6 @@ body {
 	margin-right: 10px;
 }
 
-/* HIDDING MAIN SEARCH BAR ON RESULT PAGE */
-#block-search-form {
-	display: none;
-}
-
 /*  PROJECT ICONS */
 .project-icon {
 	display: block;
@@ -57,4 +52,451 @@ body {
 	background-size: 15px;
 	padding-left: 20px;
 	padding-right: 10px;	
+	margin-bottom: 5px;
+}
+
+#block-views-matchmaking-block {
+	position: relative;
+}
+
+/* HIDE Fields for matchmaking */
+#block-views-current-user-block, 
+.views-field-field-skills, 
+.views-field-field-category, 
+.views-field-field-languages {
+	display: none;
+}
+
+/* SCORE for Matchmaking */
+.views-field-nothing {
+	position: absolute;
+	right: 5px;
+	width: 20x;
+	height: 20px;
+	text-align: center;
+	border-radius: 10px;
+	border: #7A7A7A solid 1px;
+	color: #000;
+}
+
+.score_1 {
+	background-color: #cc240e;
+	width: 20px;
+}
+.score_2 {
+	background-color: #EE7600;
+	width: 20px;
+}
+.score_3 {
+	background-color: #EE9A00;
+	width: 20px;
+}
+.score_4 {
+	background-color: #EEC900;
+	width: 20px;
+}
+.score_5 {
+	background-color: #FFFF00;
+	width: 20px;
+}
+.score_6 {
+	background-color: #bd9e2f;
+	width: 20px;
+}
+.score_7 {
+	background-color: #ADFF2F;
+	width: 20px;
+}
+.score_8 {
+	background-color: #458B00;
+	width: 20px;
+}
+.score_9 {
+	background-color: #008d00;
+	width: 20px;
+}
+
+/* FOOTER   */
+#footer {
+	color:gray;
+}
+
+.user-picture img {
+	float: left;
+	margin: 10px;
+}
+
+
+/* Project Slideshow */
+#block-views-og-extras-groups-block-1 {
+	position: relative;
+}
+#views_slideshow_slide_counter_og_extras_groups-block_1 {
+	position: absolute;
+	bottom: 50px;
+	text-align: center;
+	width: 87%;
+}
+
+#block-views-og-extras-groups-block-1 .pagination {
+	display: none;
+}
+
+#views_slideshow_controls_text_previous_og_extras_groups-block_1 {
+	position: absolute; 
+	top: 50%;
+	left: 20px;
+	width: 0px;
+	height: 20px;
+	padding-left: 20px;
+	overflow: hidden;
+	display: inline-block;
+	background-image: url("../bootstrap/bootstrap/img/glyphicons-halflings.png");
+	background-position: -240px -72px;
+}
+
+#views_slideshow_controls_text_next_og_extras_groups-block_1 {
+	position: absolute; 
+	top: 50%;
+	right: 20px;
+	width: 0px;
+	height: 20px;
+	padding-left: 20px;
+	overflow: hidden;
+	display: inline-block;
+	background-image: url("../bootstrap/bootstrap/img/glyphicons-halflings.png");
+	background-position: -336px -72px;
+}
+
+#views_slideshow_controls_text_pause_og_extras_groups-block_1 {
+	position: absolute; 
+	bottom: 30px;
+	left: 50%;
+	width: 0px;
+	height: 20px;
+	padding-left: 20px;
+	overflow: hidden;
+	display: inline-block;
+	background-image: url("../bootstrap/bootstrap/img/glyphicons-halflings.png");
+	background-position: -288px -72px;
+}
+
+
+/** SUBPAGE DETAIL PAGE DESIGN **/
+
+.submitted .user-picture img {
+	float: right;
+	margin: 10px;
+}
+
+.field {
+	position: relative;
+	height: auto;
+	padding: 18px 0px;	
+	clear: left;
+}
+
+.field-name-group-group .field-label {
+	float: left;
+}
+
+.field-name-field-skills .field-items, 
+.field-name-field-category .field-items,
+.field-name-field-languages .field-items {
+	position: relative;
+}
+
+.field-name-field-skills .field-item, 
+.field-name-field-category .field-item,
+.field-name-field-languages .field-item   {
+	position: relative;
+	width: 33%;
+	float: left;
+}	
+.field-name-field-time-zone,
+.field-name-field-faculty,
+.field-name-field-faculty-name,
+.field-name-field-country
+ {
+	position: relative;
+	width: 50%;
+	float: right;
+	clear: none;
+}
+article.node-group footer {
+	/*display:none;*/
+}
+
+
+/* edit page */
+
+#edit-field-start-date-und-0-value > div > label,
+#edit-field-start-date-und-0-value2 > div > label {
+	padding: 0px;
+	margin: 0px;
+	font-size: 14px;
+	line-height: 20px;
+	border-bottom: 0px;
+}
+
+.control-group > label {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 20px;
+	font-size: 21px;
+	line-height: 40px;
+	color: #333333;
+	border: 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.control-group > label[for=edit-field-start-date-und-0-value],
+.control-group > label[for=edit-field-start-date-und-0-value2],
+.control-group > label[for=edit-field-duration-und-0-value],
+.control-group > label[for=edit-field-duration-und-0-value2]
+{display: none;}
+
+.form-checkboxes {
+	position: relative;
+}
+
+.form-checkboxes .form-type-checkbox {
+	width: 50%;
+	float: left;
+}
+
+.control-group.form-type-textfield .help-block {
+	display: none;
+}
+
+.group-working-hours .control-group.form-type-textfield {
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+.tabledrag-toggle-weight-wrapper {
+	display: none;
+}
+
+.form-type-date-select {
+	position: relatvie;
+	float: left;
+	width: 50%
+}
+.container-inline-date { clear: none; }
+
+.start-date-wrapper, .end-date-wrapper {
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+#field-duration-add-more-wrapper .fieldset-legend:after {
+	content: '*';
+}
+
+#edit-field-type-und .form-item {
+	position: relative;
+	float: left;
+	width: 33%;
+}
+th.field-label label {
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 15px;
+}
+
+.comment {
+	border: 1px solid #e5e5e5;
+	margin: 0px;
+	position: relative;
+}
+
+.comment h3 {
+	margin: 0px;
+	padding: 0px;
+}
+
+h3.field-group-format-toggler .task_type {
+	float: right;
+}
+
+h3.field-group-format-toggler {
+	font-size: 18px;
+	padding: 5px;
+}
+
+h3 mark.new {display:none;}
+
+h3.field-group-format-toggler mark {
+	margin-left: 20px;
+	display: inline;
+}
+
+.comment .field { margin: 0px; padding: 10px 0px;}
+
+.comment .permalink, .comment .field-name-field-type {display: none;}
+
+
+.comment .field-name-field-communication .field-label {
+	width: 140px;
+	float: left;
+}
+.comment .field-name-field-communication .field-items {
+	width: 340px;
+	float: left;
+}
+
+
+.comment .field-name-field-task-tags .field-label,
+.comment .field-name-field-duration .field-label {
+	width: 80px;
+	float: left;
+}
+.comment .field-name-field-materials .field-label {
+	width: 100px;
+	float: left;
+}
+.comment .field-name-field-task-tags .field-items,
+.comment .field-name-field-duration .field-items{
+	width: 400px;
+	float: left;
+}
+.comment .field-name-field-materials .field-items {
+	width: 380px;
+	float: left;
+}
+.comment .field-name-field-task-tags .field-item,
+.comment .field-name-field-communication .field-item {
+	float: left;
+	padding-right: 5px;
+}
+.comment .field-name-field-task-tags .field-item:after,
+.comment .field-name-field-communication .field-item:after {
+	content: ',';
+}
+
+.comment .time-default {float: left; }
+
+.comment .field-name-field-monday         .field-label,
+.comment .field-name-field-tuesday       .field-label,
+.comment .field-name-field-wednesday   .field-label,
+.comment .field-name-field-thursday     .field-label,
+.comment .field-name-field-friday         .field-label,
+.comment .field-name-field-saturday     .field-label,
+.comment .field-name-field-sunday         .field-label {
+	width: 140px;
+	float: left;
+}
+.comment .field-name-field-monday          .field-items,
+.comment .field-name-field-tuesday        .field-items,
+.comment .field-name-field-wednesday    .field-items,  
+.comment .field-name-field-thursday      .field-items,
+.comment .field-name-field-friday          .field-items,
+.comment .field-name-field-saturday      .field-items,
+.comment .field-name-field-sunday          .field-items {
+	width: 350px;
+	float: left;
+}
+.comment .field-name-field-monday          .field-item,
+.comment .field-name-field-tuesday        .field-item,
+.comment .field-name-field-wednesday    .field-item,
+.comment .field-name-field-thursday      .field-item,  
+.comment .field-name-field-friday          .field-item,
+.comment .field-name-field-saturday      .field-item,  
+.comment .field-name-field-sunday          .field-item {
+	float: left;
+	padding-right: 5px;
+}
+.comment .field-name-field-monday          .field-item:after,
+.comment .field-name-field-tuesday        .field-item :after,
+.comment .field-name-field-wednesday    .field-item :after,    
+.comment .field-name-field-thursday      .field-item :after,
+.comment .field-name-field-friday          .field-item :after,
+.comment .field-name-field-saturday      .field-item :after,
+.comment .field-name-field-sunday          .field-item :after  {
+	content: ',';
+}
+
+.comment .group-fieldset-working-hours legend{
+	margin: 70px 0px 0px 0px;
+	top: 10px;
+	font-size: 15px;
+	clear: left;
+	line-height: 30px;
+	position: relative;
+}
+
+.comment .group-details .links {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.comment .group-details .links .comment-reply {
+	display: none;
+}
+.comment .group-details .links li {
+	float: right;
+}
+
+.comment-form #edit-author--2 {display: none;}
+.comment-form .tabledrag-hide {display: none; }
+.comment-form .field-name-field-sunday {
+	margin-bottom: 20px;
+}
+.multipage-link-previous {
+	margin: 0px 15px;
+}
+.comment .field-name-field-collaborating>.field-label {
+	display: none;
+}
+.comment .field-collection-item-field-collaborating .content .field {
+	position: relative;
+	float: left;
+	clear: none;
+}
+.comment .field-collection-item-field-collaborating .content .field-name-field-users .field-items {
+	cursor: pointer;
+}
+.comment .field-collection-item-field-collaborating .content .field:nth-child(1) {
+	width: 55%;
+}
+.comment .field-collection-item-field-collaborating .content .field:nth-child(2) {
+	width: 35%;
+}
+.comment .field-collection-item-field-collaborating .content .field:nth-child(3) .field-label {
+	content: "#";
+}
+.comment .field-collection-item-field-collaborating .content .field:nth-child(3) {
+	width: 10%;
+}
+#comments .detail-overlay{
+	position: absolute;
+	width: 400px;
+	top: 60px;
+	left: 80px;
+	min-height: 400px;
+	border: 1px solid #bbb;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #e5e5e5;	
+	z-index: 99;
+	padding: 12px;
+}
+#comments .detail-overlay .close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.field-collection-view {
+	margin: 0px;
+	padding: 0px; }
+.field-collection-view .field-label {
+	display: none;
+}
+.comment .field-item:first-child .field-collection-view .field-label {
+	display: block !important;
 }

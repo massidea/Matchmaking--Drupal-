@@ -80,6 +80,8 @@ fieldset.collapsible .fieldset-legend {
   cursor: s-resize;
   height: 9px;
   overflow: hidden;
+  width: 45%;
+  margin-left: 25%;
 }
 
 /**
@@ -266,5 +268,16 @@ html.js .js-hide {
 /* IE7 */
 *:first-child + html .clearfix {
   min-height: 1%;
+}
+
+
+
+.form-checkboxes {
+	position: relative;
+}
+
+.form-checkboxes .form-type-checkbox {
+	width: 50%;
+	float: left;
 }
 
